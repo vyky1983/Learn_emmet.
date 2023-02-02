@@ -9,11 +9,50 @@
 </head>
 
 <body>
+    <!-- Вложанные элкменты создаются tak nav>ul>li  -->
     <nav>
         <ul>
             <li></li>
         </ul>
     </nav>
+    <!-- Соседние элементы создаются так : div+p+bq -->
+    <div></div>
+    <p></p>
+    <blockquote></blockquote>
+
+    <!-- Комбинация nav>ul>li+li -->
+    <nav>
+        <ul>
+            <li></li>
+            <li></li>
+        </ul>
+    </nav>
+
+    <!-- Выход га один уровень в верх (^) div+div>p>span+em^bq-->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+    <!-- Выход га два уровеня в верх (^^) div+div>p>span+em^^bq-->
+    <div></div>
+    <div>
+        <p><span></span><em></em></p>
+    </div>
+    <blockquote></blockquote>
+
+
+    div>p>h2+span^b
+
+    <div>
+        <p>
+            <h2></h2>
+            <span></span>
+        </p>
+        <b></b>
+    </div>
+
 
 </body>
 
