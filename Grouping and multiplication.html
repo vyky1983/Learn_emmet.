@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grouping and multiplication</title>
+</head>
+
+<body>
+    <div>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing. Iusto unde, recusandae ex adipisci perspiciatis laboriosam quis dignissimos, reiciendis aperiam quod pariatur fugiat quibusdam voluptates.</p>
+    </div>
+
+
+
+    <p>Далеко-далеко за словесными горами в стране, гласных и согласных живут рыбные тексты.</p>
+    <p class="">
+    </p>
+
+    <!--Несколько элементов создаються так: (ul>li*3) Эта абривиатура сгенирирует следующий код -->
+
+    ul>li*3
+    <ul>
+        <li></li>
+        <li></li>
+        <li></li>
+    </ul>
+
+    div*3>ul>li*3
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+    <div>
+        <ul>
+            <li></li>
+            <li></li>
+            <li></li>
+        </ul>
+    </div>
+
+
+    <!--Можно использовать символ $ для того чтобы задавать номер в названии класса
+
+ul>li.item$*2
+
+эта аббревиатура сгенерирует следующий HTML код:  -->
+
+    ul>li$*2
+    <ul>
+        <li1></li1>
+        <li2></li2>
+    </ul>
+
+    ul>p.$*2
+    <ul>
+        <p class="1"></p>
+        <p class="2"></p>
+    </ul>
+    <ul>
+        <p1></p1>
+        <p2></p2>
+    </ul>
+
+    <!-- ul>li.item$$$*3
+
+эта аббревиатура сгенерирует следующий HTML код:
+
+<ul> -->
+    ul>li.item$$$*3
+    <ul>
+        <li class="item001"></li>
+        <li class="item002"></li>
+        <li class="item003"></li>
+    </ul>
+
+
+    <!-- ul>li.item$@-*3
+
+эта аббревиатура сгенерирует следующий HTML код: -->
+    <ul>
+        <li class="item3"></li>
+        <li class="item2"> </li>
+        <li class="item1"> </li>
+    </ul>
+
+</body>
+
+</html>
